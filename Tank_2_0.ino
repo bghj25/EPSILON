@@ -53,7 +53,7 @@ void loop() {
               angle = Sangle.toInt();
               strength = Sstrength.toInt();
               button = Sbutton.toInt();
-         if (button == 1 || mode == 1)// режим пизды
+         if (button == 1 || mode == 1)
               {
                 ServoUpdate();
                 mode = 1;
@@ -81,7 +81,7 @@ void loop() {
                   digitalWrite(PIN_IN4, HIGH);
                 }
               }
-                      if (button == 2 || mode == 2)// режим cum
+                      if (button == 2 || mode == 2)
                       { 
                         ServoUpdate();
                         mode = 2;
