@@ -95,7 +95,7 @@ void loop() {
                         Servo2.write(s2);
                         Servo2.writeMicroseconds(5);
                          // вот тут хз, мб будет пропускать пакет
-                             if (button == 3)// делаем cum
+                             if (button == 3)
                              {
                               digitalWrite(Laser, HIGH);
                                 for(int i = 5000; i>=100; i-=20){
